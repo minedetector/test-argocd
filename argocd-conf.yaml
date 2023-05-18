@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/minedetector/test-argocd.git
     targetRevision: HEAD
-    path: dev
+    path: config
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
